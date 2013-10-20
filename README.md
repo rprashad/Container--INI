@@ -3,7 +3,7 @@ Container::INI
 
 Container::INI -  create beautifully complex (nested data structures) from an INI file
                   * multiline values
-                  * not notation
+                  * dot notation
                   * array detection
                   * fast, tiny, and efficient
                   * multitude of uses (dependency injection, etc.)
