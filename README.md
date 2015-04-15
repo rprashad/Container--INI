@@ -16,8 +16,9 @@ Quick Start
 * Multiline values are permitted, lines must terminate with a backslash \
 
 
+File (example1.ini)
+====
 ```
-# config
 [header::example::1]
 address.street=1 Individual Way
 address.city=Your Town
@@ -27,16 +28,21 @@ name.first=Rajendra
 name.last=Prashad
 os.unix.linux=Debian, Centos, Gentoo, Mint
 os.unix.bsd=FreeBSD, NetBSD, OpenBSD
+```
 
-# code
+Code
+====
+```
 use Container::INI;
 use Data::Dumper;
 
 my $ini = new Container::INI("example1.ini");
 print Dumper $ini->get_config;
+```
 
-# output
-
+Output
+====
+```
 $VAR1 = {
           'header' => {
                         'example' => {
