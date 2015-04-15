@@ -1,4 +1,4 @@
-#    copyright 2013 - Rajendra Prashad (nprashad@gmail.com)
+#    copyright 2015 - Rajendra Prashad (raj@prashad.net)
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -17,14 +17,13 @@
 =over
 
 =item 
-Create beautifully complex (nested data structures) from an INI file.
+Nested perl data structures from INI files.
 
 =item
 
   Support for multi-line values
   Dot notation on keys allow for nested hash references
   Array detection on values when separated with a ','
-  Many uses (perl dependency injection, config management, prototyping classes/objects)
 
 =back
 
