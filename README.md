@@ -1,12 +1,20 @@
 Container::INI
 =====
 
-Container::INI -  create beautifully complex (nested data structures) from an INI file
-                  * multiline values
-                  * dot notation
-                  * array detection
-                  * fast, tiny, and efficient
-                  * multitude of uses (dependency injection, etc.)
+Container::INI -  Construct deeply nested perl data structures in INI format
+* multiline values
+* dot notation
+* array detection
+
+Quick Start
+=====
+* Headers are embedded between brackets []
+* Nested hash keys included in headers are delimited by ::
+* Like traditional INI files, keys and values are delimited by the equality operator =
+* Unlike traditional INI parsers, dot notation can be used in key values to nest hash keys
+* Comma separated values are detected as arrays
+* Multiline values are permitted, lines must terminate with a backslash \
+
 
 ```
 # config
